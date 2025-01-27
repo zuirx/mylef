@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /home/zz/2tb/gam/doom
+crispy-doom-setup

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+firefox -profile "/home/zz/.mozilla/firefox/7rpclh4n.ws"

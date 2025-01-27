@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /home/zz/500/gam/gtasa
+proton gta_sa.exe

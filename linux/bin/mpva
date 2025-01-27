@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mpv --lavfi-complex='[aid1] [aid2] amix [ao]' $1

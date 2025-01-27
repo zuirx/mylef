@@ -1,0 +1,3 @@
+#!/bin/sh
+
+vim -c ':set syntax=html' $1

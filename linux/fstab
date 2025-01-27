@@ -1,0 +1,5 @@
+# 480
+/dev/sda2 	/home/zz/vol/480 	ntfs-3g 	defaults 	0 0
+
+# 500
+/dev/sdb2 	/home/zz/vol/500 	ntfs-3g 	defaults 	0 0

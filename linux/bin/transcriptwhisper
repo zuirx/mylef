@@ -1,0 +1,3 @@
+#!/bin/bash
+
+whisper.cpp -m /home/zz/sft/Whisper/ggml-large-v3.bin -f $1

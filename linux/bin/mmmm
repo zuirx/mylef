@@ -1,0 +1,3 @@
+#!/bin/sh
+
+monerod --data-dir=/home/zz/2tb/wal/bc

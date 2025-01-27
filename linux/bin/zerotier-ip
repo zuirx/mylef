@@ -1,0 +1,3 @@
+#!/bin/sh
+
+doas /home/zz/sft/ztier/zerotier-cli listnetworks

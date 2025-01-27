@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /opt/mpt/bin/amd64
+wine OpenMPT.exe

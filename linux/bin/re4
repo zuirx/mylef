@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /home/zz/gam/re4/Bin32
+proton bio4.exe

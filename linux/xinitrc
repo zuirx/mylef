@@ -1,0 +1,8 @@
+exec remote &
+exec Mconf &
+exec wp &
+exec slstatus &
+exec lxsession &
+exec monr &
+
+exec dwm

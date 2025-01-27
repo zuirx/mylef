@@ -1,0 +1,3 @@
+#!/bin/bash
+
+scrcpy --lock-video-orientation=3 --v4l2-sink=/dev/video0 --turn-screen-off --stay-awake --power-off-on-close

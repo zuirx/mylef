@@ -1,0 +1,6 @@
+#!/bin/sh
+
+qemu-system-x86_64 --enable-kvm -m 2048 \
+  -net nic,model=virtio -net user -cdrom dvl.iso \
+  -rtc base=localtime,clock=host -smp cores=1,threads=1 \
+  -usb -device usb-tablet \

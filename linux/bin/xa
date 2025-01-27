@@ -1,0 +1,4 @@
+#!/bin/sh
+
+maim /home/zz/img/shots/pic$(date +%s).png
+maim | xclip -selection clipboard -t image/png

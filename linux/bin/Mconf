@@ -1,0 +1,7 @@
+#!/bin/sh
+
+xinput --set-prop 'SINOWEALTH GXT 960 Gaming Mouse' 'libinput Accel Profile Enabled' 0, 1
+
+xinput --set-prop 'SINOWEALTH GXT 960 Gaming Mouse'  'libinput Accel Speed' -0.2
+
+setxkbmap -model abnt2 -layout br

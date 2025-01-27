@@ -1,0 +1,3 @@
+#!/bin/bash
+
+WINEPREFIX=/home/zz/sft/virtualwine wine $1

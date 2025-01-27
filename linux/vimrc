@@ -1,0 +1,35 @@
+set nocompatible
+set number
+set clipboard=unnamedplus
+set hlsearch
+set wildmenu
+set showcmd
+set visualbell
+set t_vb=
+set textwidth=180
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set autoindent
+set smartindent
+set backspace=indent,eol,start
+set mouse=a
+set foldmethod=marker
+set ignorecase
+set smartcase
+set autochdir
+set omnifunc=syntaxcomplete#Complete
+
+filetype on
+filetype plugin on
+filetype indent on
+syntax on
+
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
+hi Folded ctermbg=grey
+
+colorscheme sorbet
+
+nnoremap <F5> :!make <CR>

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if pgrep -x "$SERVICE" >/dev/null
+then
+    echo "$SERVICE is running"
+    xdotool mousemove $(xrandr | grep "current" | cut -d " " -f8) $(xrandr | grep "current" | cut -d " " -f10 | cut -d "," -f1)
+fi

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+qemu-system-x86_64 --enable-kvm -drive driver=qcow2,file=/home/zz/vm/deb/gns.qcow2,if=virtio -m 2048 \
+  -net nic,model=virtio -net user \
+  -rtc base=localtime,clock=host -smp cores=1,threads=2 \
+  -usb -device usb-tablet \

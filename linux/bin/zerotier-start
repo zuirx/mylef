@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo /home/zz/sft/ztier/zerotier-one -d

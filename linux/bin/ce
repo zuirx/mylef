@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /home/zz/.wine/drive_c/ce
+wine cheatengine-x86_64.exe 
